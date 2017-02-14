@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "linux下vim用法"
-date:   2016-08-22 07:10:00
+date:   2016-08-22 18:10:00
 categories: Tools
 tags: Tools
 ---

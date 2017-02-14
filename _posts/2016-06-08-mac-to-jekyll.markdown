@@ -64,4 +64,6 @@ tags: Tools
 	<span></span>
 </code>
 
+GitHub 支持markdown、html编写，markdown兼容html，html不兼容markdown，故文章已markdown编写，包含html。文章的目的是加深自己的理解，便于查看。
+
 

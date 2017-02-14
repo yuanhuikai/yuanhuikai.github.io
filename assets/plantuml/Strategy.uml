@@ -1,0 +1,35 @@
+@startuml
+class Hello {
+	-SayBehavior: SayBehavior
+	+void SetSayBehavior()
+	{abstract}+void Say()
+}
+
+
+class SayHello{
+	void Say()
+}
+
+class SayBehavior {
+	{abstract}+ void SayHello()
+}
+
+class SayChina {
+	+void SayHello()
+}
+
+class SayEnglish {
+	+void SayHello()
+}
+
+class SayIndia {
+	+void SayHello()
+}
+
+Hello <|-- SayHello
+SayBehavior <|-- SayChina
+SayBehavior <|-- SayEnglish
+SayBehavior <|-- SayIndia
+Hello *-- SayBehavior
+
+@enduml
