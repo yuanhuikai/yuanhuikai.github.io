@@ -13,3 +13,61 @@ OO原则：封装变化、多用组合，少用继承、针对接口编程，不
 <div align="center">
 	<img src="/assets/plantuml/Strategy-design.png" height="400" width="200" align="center">
 </div>
+
+<code>
+class SayBehavior {
+public:
+    void virtual Say() = 0;
+};
+
+class ChinaSay : public SayBehavior {
+public:
+    void Say(){
+        cout << "你好" << endl;
+    }
+};
+
+class EnglishSay : public SayBehavior {
+public:
+    void Say(){
+        cout << "Hello" << endl;
+    }
+};
+
+class Persion {
+public:
+    Persion():m_SayBehavior(0){}
+    void SetSayBehavior(SayBehavior *lrs){
+        this->m_SayBehavior = lrs;
+    }
+    void virtual Speak();
+protected:
+    SayBehavior *m_SayBehavior;
+};
+
+class Chinease : public Persion{
+public:
+    void Speak() {
+        m_SayBehavior->Say();
+    }
+};
+
+int main(int argc, const char * argv[]) {
+
+    ChinaSay *chinaSay = new ChinaSay();
+    EnglishSay *englishSay = new EnglishSay();
+
+    Persion *chinaPer = new Chinease();
+    chinaPer->Speak();
+    
+    chinaPer->SetSayBehavior(chinaSay);
+    chinaPer->Speak();
+    
+    
+    chinaPer->SetSayBehavior(englishSay);
+    chinaPer->Speak();
+    
+    return 0;
+}
+
+</code>
