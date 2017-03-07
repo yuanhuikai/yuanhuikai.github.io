@@ -20,3 +20,7 @@ tags: cpp
 <font color="#FF0000">优点：</font>内联函数的主要目的是，用来替代C语言中表达式形式的宏定义来解决程序中函数调用的效率问题，内联函数代码被放入符号标中，在使用的时候直接进行替换，没有调用的开销，并且内联函数是一个真正的函数，会进行参数类型的检查，并且inline可以作为类的成员函数，可以在使用所在类的保护成员及私有成员。  
 <font color="#FF0000">缺点：</font>内联是以代码膨胀（复制）为代价的，仅仅省去了函数调用的开销，从而提高函数的执行效率，如果执行函数体内代码的时间要比函数调用的开销较大，那么效率的收获会很少。并且，每一处内联函数的调用都要复制代码，将使程序的总代码量增大，消耗更多的内存。
 
+defaults write com.apple.finder AppleShowAllFiles -bool true
+
+defaults write com.apple.finder AppleShowAllFiles -bool true
+
