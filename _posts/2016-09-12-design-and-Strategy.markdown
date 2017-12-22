@@ -51,18 +51,18 @@ public:
 
 int main(int argc, const char * argv[]) {
 
-ChinaSay *chinaSay = new ChinaSay();
-EnglishSay *englishSay = new EnglishSay();
-
-Persion *chinaPer = new Chinease();
-chinaPer->Speak();
+    ChinaSay *chinaSay = new ChinaSay();
+    EnglishSay *englishSay = new EnglishSay();
     
-chinaPer->SetSayBehavior(chinaSay);
-chinaPer->Speak();
-    
-    
-chinaPer->SetSayBehavior(englishSay);
-chinaPer->Speak();
+    Persion *chinaPer = new Chinease();
+    chinaPer->Speak();
+        
+    chinaPer->SetSayBehavior(chinaSay);
+    chinaPer->Speak();
+        
+        
+    chinaPer->SetSayBehavior(englishSay);
+    chinaPer->Speak();
     
 return 0;
 }
