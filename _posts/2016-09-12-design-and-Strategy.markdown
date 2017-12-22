@@ -59,8 +59,7 @@ int main(int argc, const char * argv[]) {
         
     chinaPer->SetSayBehavior(chinaSay);
     chinaPer->Speak();
-        
-        
+          
     chinaPer->SetSayBehavior(englishSay);
     chinaPer->Speak();
     

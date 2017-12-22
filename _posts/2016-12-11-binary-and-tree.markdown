@@ -24,12 +24,9 @@ tags: cpp
 class Solution {
     typedef vector<int>::iterator  vIter;
 public:
-    TreeNode* reConstructBinaryTree(vector<int> pre,vector<int> vin) {
-    
-        if(pre.size()==0 || pre.size()!=vin.size()) return NULL;
-        
-        return ConstuctTree(pre.begin(), pre.end()-1, vin.begin(), vin.end()-1);
-
+    TreeNode* reConstructBinaryTree(vector<int> pre,vector<int> vin) {  
+        if(pre.size()==0 || pre.size()!=vin.size()) return NULL;  
+        return ConstuctTree(pre.begin(), pre.end()-1, vin.begin(), vin.end()-1);   
     }
     
     TreeNode* ConstuctTree(vIter preStart, vIter preEnd, vIter vinStart, vIter vinEnd) {
