@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "MySQL存储引擎介绍"
+date:   2017-12-15 22:21:49
+categories: MySQL 
+tags: MySQL 
+---
 MySQL的存储引擎
 ===========
 在文件系统中，MySQL会把每个数据库（也叫做架构）保存为数据目录下的一个字目录。当创建一个表时，MySQL会在和表名同名的，以*.frm*为后缀的文件中存储表的定义。
