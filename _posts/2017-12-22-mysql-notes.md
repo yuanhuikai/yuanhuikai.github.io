@@ -2,8 +2,8 @@
 layout: post
 title:  "MySQL点滴记录"
 date:   2017-12-22 10:21:49
-categories: MySQL 
-tags: MySQL 
+categories: 数据库 
+tags: 数据库 
 ---
 MySQL知识点积累
 =====
@@ -29,10 +29,35 @@ MySQL知识点积累
 	* LEFT JOIN：即使右表中没有匹配，也从左表返回所有的行。
 	* RIGHT JOIN：即使坐标中没有匹配，也从右表中返回有所得行。
 	* FULL JOIN：只要其中一个表存在匹配，就返回行。
-* 数据类型(data_type)规定了可容纳何种数据类型。下面的表格包含了SQL中最常用的数据类型：
-|数据类型|描述|
-|----------------|---------------------------------------|
-|integer(size) 
-int(size)
-smallint(size)
-tinyint(size)|仅容纳整数。在括号内规定数字的最大位数|
+* 数据类型(data_type)规定了可容纳何种数据类型。下面的表格包含了SQL中最常用的数据类型：   
+
+| 数据类型			| 描述	|
+|  ----------------   | -------------------------------  |
+| <br>integer(size)</br> <br>int(size)</br><br>smallint(size)</br><br>tinyint(size)</br>   | 仅容纳整数。在括号内规定数字的最大位数 |
+| <br>decimal(size,d)</br> <br>numeric(size,d)</br>   | <br>容纳带有小数的数字。</br><br>"size"规定数字的最大位数。"d"规定小数点右侧的最大位数|
+| char(size) |  容纳固定长度的字符串（可容纳字母、数字以及特殊字符）。在括号中规定字符串的长度。|
+| varchar(size)  |  容纳可变长度的字符串（可容纳字符、数字以及特殊字符）。在括号中规定字符串的最大长度。 | 
+| date(yyyymmdd)  | 容纳日期。  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

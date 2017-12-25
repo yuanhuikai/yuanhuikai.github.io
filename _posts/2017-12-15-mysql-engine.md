@@ -2,8 +2,8 @@
 layout: post
 title:  "MySQL存储引擎介绍"
 date:   2017-12-15 22:21:49
-categories: MySQL 
-tags: MySQL 
+categories: 数据库 
+tags: 数据库 
 ---
 MySQL的存储引擎
 ====
