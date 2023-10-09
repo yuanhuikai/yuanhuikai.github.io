@@ -296,7 +296,7 @@
                 return this.ajax("GET", e, t, s, a)
             }, post: function (e, t, s, a) {
                 return this.ajax("POST", e, t, s, a)
-            }
+            } 
         }, M = S.ws = {
             messages: [], send: function (s) {
                 if (!("WebSocket" in e && p))return !1;
