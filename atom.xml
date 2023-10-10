@@ -6,7 +6,7 @@
   <link href="http://yuanhuikai.com/atom.xml" rel="self"/>
   
   <link href="http://yuanhuikai.com/"/>
-  <updated>2023-10-10T03:17:03.598Z</updated>
+  <updated>2023-10-10T03:20:28.720Z</updated>
   <id>http://yuanhuikai.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git合并commit</title>
+    <link href="http://yuanhuikai.com/2023/10/10/git%E5%90%88%E5%B9%B6commit/"/>
+    <id>http://yuanhuikai.com/2023/10/10/git%E5%90%88%E5%B9%B6commit/</id>
+    <published>2023-10-10T03:20:00.000Z</published>
+    <updated>2023-10-10T03:20:28.720Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在日常开发中，我们会从主分支checkout一份，在工作过程中，可能想要提交当前工作进度，并不真正关心提交消息，这些&amp;quot;正在进行的提交&amp;quot;不一定包含重要信息，所以在合并的时候，有需要重新整理commit的需求，把多个commit合并为一条，去除无用的comm</summary>
+        
+      
+    
+    
+    
+    <category term="git" scheme="http://yuanhuikai.com/categories/git/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>mongoDB分析相关</title>
@@ -38,29 +61,6 @@
     <category term="mongoDB" scheme="http://yuanhuikai.com/categories/mongoDB/"/>
     
     <category term="数据库" scheme="http://yuanhuikai.com/categories/mongoDB/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>git合并commit</title>
-    <link href="http://yuanhuikai.com/2023/10/09/git%E5%90%88%E5%B9%B6commit/"/>
-    <id>http://yuanhuikai.com/2023/10/09/git%E5%90%88%E5%B9%B6commit/</id>
-    <published>2023-10-08T16:00:00.000Z</published>
-    <updated>2023-10-10T03:19:33.997Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在日常开发中，我们会从主分支checkout一份，在工作过程中，可能想要提交当前工作进度，并不真正关心提交消息，这些&amp;quot;正在进行的提交&amp;quot;不一定包含重要信息，所以在合并的时候，有需要重新整理commit的需求，把多个commit合并为一条，去除无用的comm</summary>
-        
-      
-    
-    
-    
-    <category term="git" scheme="http://yuanhuikai.com/categories/git/"/>
     
     
   </entry>
